@@ -4,6 +4,7 @@ const app = express();
 const routes = require('./routes/main');
 const Detail = require('./models/Detail');
 const Slider = require('./models/Slider');
+const Service = require('./models/Service');
 const mongoose = require('mongoose');
 
 app.use("",routes);
@@ -18,7 +19,30 @@ hbs.registerPartials('views/partials');
 //db connection
 mongoose.connect('mongodb+srv://itswaleedtahir:itswaleedtahir123@cluster0.smf6v.mongodb.net/website_tut',()=>{
     console.log('Database connected');
-
+        // Service.create([
+        //     {
+        //         icon:"fas fa-solid fa-camera",
+        //         title:"Photo Editing",
+        //         description:"We provide best photo editing service",
+        //         linkText:"https://www.instagram.com/waleedzphotography/",
+        //         link:"Check"
+        //     },
+        //     {
+        //         icon:"fas fa-solid fa-video",
+        //         title:"Photo Editing",
+        //         description:"We provide best photo editing service",
+        //         linkText:"https://www.instagram.com/waleedzphotography/",
+        //         link:"Check"
+        //     },
+        //     {
+        //         icon:"fas fa-solid fa-video",
+        //         title:"Photo Editing",
+        //         description:"We provide best photo editing service",
+        //         linkText:"https://www.instagram.com/waleedzphotography/",
+        //         link:"Check"
+        //     },
+            
+        // ])
     // Slider.create([
     //     {
     //         title: "One of my favorite shot i took of nature",
