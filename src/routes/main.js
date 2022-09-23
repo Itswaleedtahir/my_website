@@ -1,10 +1,10 @@
 const express = require("express");
-
 const routes = express();
 const Detail = require('../models/Detail');
 const Slider = require('../models/Slider');
 const Service = require('../models/Service');
 
+//GET API
 routes.get('/', async (req,res)=>{
 
     const details = await Detail.findOne({"_id":"632bdfac85cf55ca4dfcccf0"});
