@@ -94,6 +94,7 @@ mongoose.connect('mongodb+srv://itswaleedtahir:itswaleedtahir123@cluster0.smf6v.
     // })
 })
 
+//Serving lIstening on port 8000
 app.listen(process.env.PORT | 8000, ()=>{
         console.log("listening on port 8000...");
 })
