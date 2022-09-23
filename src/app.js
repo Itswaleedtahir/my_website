@@ -11,7 +11,7 @@ const mongoose = require('mongoose');
 
 app.use("",routes);
 
-
+//Static files path 
 app.use('/static',express.static('public'));
 //templating engine
 app.set('view engine', 'hbs');
