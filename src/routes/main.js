@@ -18,7 +18,7 @@ routes.get('/', async (req,res)=>{
         services: services
    })
 });
-
+//Get API
 routes.get('/gallery',async (req,res)=>{
     const details = await Detail.findOne({"_id":"632bdfac85cf55ca4dfcccf0"});
     res.render('gallery',{
