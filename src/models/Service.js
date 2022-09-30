@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+//Services schema
 const Service=mongoose.Schema({
     icon:String,
     title: String,
