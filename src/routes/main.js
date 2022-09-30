@@ -26,4 +26,5 @@ routes.get('/gallery',async (req,res)=>{
     });
  });
 
+ //Exporting modules
 module.exports = routes;
