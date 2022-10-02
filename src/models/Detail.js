@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+
+//Details Schema
 const Detail = mongoose.Schema({
     brandName: String,
     brandIconUrl: String,
