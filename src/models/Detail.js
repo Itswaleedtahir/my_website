@@ -11,4 +11,6 @@ const Detail = mongoose.Schema({
     },
     ],
 });
+
+//Exporting Schema
 module.exports = mongoose.model('detail', Detail);
