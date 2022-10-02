@@ -9,4 +9,5 @@ const Service=mongoose.Schema({
     link: String
 })
 
+//Exporting schema
 module.exports= mongoose.model('services',Service);
