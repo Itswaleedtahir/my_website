@@ -1,5 +1,6 @@
 const mongoose= require('mongoose');
 
+//Slider Schema
 const Slider = mongoose.Schema({
     title: String,
     subTitle: String,
