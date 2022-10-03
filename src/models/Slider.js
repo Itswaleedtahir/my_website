@@ -8,4 +8,5 @@ const Slider = mongoose.Schema({
     class: String
 })
 
+//Exporting Schema
 module.exports = mongoose.model('slider',Slider);
